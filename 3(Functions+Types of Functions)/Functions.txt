@@ -1,0 +1,27 @@
+1. What is function in Js?
+: Function is a set of instructions to perform a task. In order for a block to be declared as 
+function, it should take input and return an output.
+
+2. What is the scope of a function?
+: Function has a global scope.
+
+3. What is the difference between arguments and parameters?
+Eg:
+function firstFunction(X){  "X" is a parameter
+    console.log("Hi");
+}
+firstFunction("hELLO"); "hELLO" is an argument
+
+3. Give an example of let, const and var with scope.
+
+
+4. What are different ways of defining functions in javascript?
+: 
+- Function Declaration
+- Function Expression
+- Arrow Function Expression
+- Concise Arrow Function Expression    ---no need
+
+Note that functions are the first-class citizens in JavaScript. 
+so that you can pass a function to another function as an argument.
+

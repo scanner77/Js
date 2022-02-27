@@ -1,0 +1,26 @@
+1. What is the difference between document and window objects in Js?
+: 
+The Window interface represents a window containing a DOM document; 
+the document property points to the DOM document loaded in that window.
+Basically window is the parent in hierarchy. 
+
+When you just type "window" you will see document object nested
+inside the window object. 
+
+Now document object model creates the DOM hirearchy.
+--see the image
+
+2. So why are we talking about difference between document and window object models?
+: Because when we are working on some methods of javascript like alert. We should know alert lies in 
+window not in document. So doing document.alert is wrong. And window.alert is right way.
+
+
+----let's see some of the popular methods in window and document----------
+Method	Description
+open()	Opens a new browser window
+print()	Prints the content of the current window
+prompt()	Displays a dialog box that prompts the visitor for input
+
+===Iframe====
+If a document contain frames (<iframe> tags), the browser creates one window object for the HTML 
+document, and one additional window object for each frame.

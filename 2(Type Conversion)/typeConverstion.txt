@@ -1,0 +1,22 @@
+- Converting one data type to another data type is called type conversion.
+1.String to Number
+2.Number to String
+3. straight boolean. When do we expect value as false and true.
+4. boolean to String
+5. boolean to number: To convert boolean to integer, let us first declare 
+a variable of boolean primitive. boolean bool = true; Now, to convert it
+ to integer, let us now take an integer variable and return a value “1” 
+ for “true” and “0” for “false”. int val = (bool) 
+  function fnConvertBooleanToNumber() { 
+	  var convertedBoolValue = IsLoggedIn ? 1 : 0; 
+	  alert(convertedBoolValue); 
+ }
+
+- We must understand there is only one type of number. Numbers can be written with or without
+decimals.
+
+
+****Imp
+JavaScript uses the + operator for both addition and concatenation.
+
+Numbers are added. Strings are concatenated.

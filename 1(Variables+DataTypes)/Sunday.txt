@@ -1,0 +1,77 @@
+- It is a good practice to link javascript file with html file at the end of body tag because we want browser to
+ready html first, css second and js at last so that we do not miss content and see js or css first. 
+
+
+====Variables=====
+Variables are representation for some values.
+Variables can hold numbers, strings, booleans, etc;
+
+We can create our variable with 2 steps:
+1. Declaration
+2. Assignment
+var xyz = 24; ------(i)
+First we need to declare, declare means declaring the unique identifier that is the name of the variable. And 
+when we say = 24, that is we are assigning the variable xyz, 24.
+
+From equation (i),
+var xyz --> Declaration
+= 24; --> Assignment
+
+**it is okay if we do not put semicolon at the end, javascript engine can insert semicolons behind the scene.
+** in console.log("Your number is", xyz); --? there will be space behind is
+** in console.log("Your number is"+ xyz); --? there will not be space behind is
+
+
+=======Data Types========
+We can store different data types in a variables.
+--number--
+-----string------
+var firstName = "Laxman Bista";
+clg(firstName)
+
+-----boolean is another datatype------
+Boolean says either True or False.
+
+var date = true;
+console.log("Are you going on a date? ", date);
+
+
+---undefined----
+If you try to print without value.
+A function returns undefined if a value was not returned .
+
+var woffwoff;
+console.log(woffwoff); 
+
+but if you did this it will work
+var woffwoff;
+woffwoff = "Hi";
+console.log(woffwoff); 
+
+--null--
+Null is a special data type which can have only one value: NULL
+var nullValue = null;
+clg(nullValue)
+
+
+/* =================================Variable Types==================== */
+**Now we should know variables value can be reassigned.
+So for that we have three ways of declaring variables. 
+1. var -- it has functional scope
+2. let -- it has block level scope
+3. const --  MDN documentation: Constants are block-scoped, 
+much like variables defined using the let statement. 
+The value of a constant cannot change through re-assignment, and it can't be redeclared.
+
+
+/* =================================Atithmetic Operations==================== */
+1. first we look at parenthesis
+2. exponents
+3. multiply divide 
+4. add substract
+
+**********JavaScript Comparison and Logical Operators*********
+
+= in JavaScript is used for assigning values to a variable. 
+== in JavaScript is used for comparing two variables values, but it ignores the datatype of variable. 
+=== is used for comparing two variables, but this operator also checks datatype and compares two values.
